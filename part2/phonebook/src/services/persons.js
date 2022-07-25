@@ -19,5 +19,5 @@ const update = (id, newObject) => {
 const deletePerson = (id) => {
     const request = axios.delete(`${baseUrl}/${id}`)
 }
-
+// eslint-disable-next-line
 export default {getAll,create,update,deletePerson}
