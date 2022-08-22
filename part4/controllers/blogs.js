@@ -24,10 +24,10 @@ blogsRouter.get('/:id', (request, response, next) => {
 const getTokenFrom = request => {
     const authorization = request.get('authorization')
     if (authorization && authorization.toLowerCase().startsWith('bearer ')) {
-      return authorization.substring(7)
+        return authorization.substring(7)
     }
     return null
-  }
+}
 
 blogsRouter.post('/', async (request, response, next) => {
     const body = request.body
@@ -71,7 +71,7 @@ blogsRouter.put('/:id', async (request, response, next) => {
         url: body.url,
         likes: body.likes
     }
-
+    console.log(blog)
     const updatedBlog = await Blog.findByIdAndUpdate(request.params.id, blog, { new: true } )
     console.log(updatedBlog)
     response.json(updatedBlog)
