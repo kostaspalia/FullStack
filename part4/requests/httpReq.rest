@@ -6,7 +6,7 @@ content-type: application/json
 Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imtvc3RhcyIsImlkIjoiNjJlMmU2MTM1ZmExYjhkY2UxN2RjNDRmIiwiaWF0IjoxNjU5MDgzNjQwLCJleHAiOjE2NTkwODcyNDB9.D_n2zaxjkx2-s9uQM4QkPDzJtxnmL9oZwuP1eO64R0Y
 
 {
-    "title": "thesis3",
+    "title": "thesis5",
     "author": "Takis",
     "url": "http://test",
     "likes": 5,
