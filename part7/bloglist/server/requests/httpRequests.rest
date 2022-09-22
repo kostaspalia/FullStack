@@ -1,0 +1,19 @@
+POST http://localhost:3003/api/users
+content-type: application/json
+
+{
+    "username": "kostas",
+    "name": "kostaspal",
+    "password": "palia"
+}
+###
+
+POST http://localhost:3003/api/blogs/62e30bbfd91053b196d58a0f/comments
+content-type: application/json
+
+{
+    "comment":"Another Comment"
+}
+
+###
+GET http://localhost:3003/api/blogs
